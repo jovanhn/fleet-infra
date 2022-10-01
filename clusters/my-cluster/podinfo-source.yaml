@@ -8,6 +8,6 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: git@github.com:jovanhn/fleet-infra.git
+  url: ssh://git@github.com:jovanhn/fleet-infra.git
        
 
