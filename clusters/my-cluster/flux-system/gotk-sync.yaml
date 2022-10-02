@@ -25,12 +25,3 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
----
-apiVersion: image.toolkit.fluxcd.io/v1beta1
-kind: ImageRepository
-metadata:
-  name: podinfo
-  namespace: flux-system
-spec:
-  interval: 1m0s
-  image: jovanhn/bff-store
