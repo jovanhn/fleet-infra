@@ -32,5 +32,5 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  interval: 10m
+  interval: 1m0s
   image: jovanhn/bff-store
